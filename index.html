@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paribu Bot Raporu</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --line: #1f2937;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+    }
+    .card {
+      width: min(1000px, 96vw);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 16px 50px rgba(0,0,0,0.35);
+      overflow: hidden;
+    }
+    .header {
+      padding: 18px 22px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    .meta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1>Paribu Coin Analiz Raporu</h1>
+      <div class="meta">Son calisma (UTC): -</div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Coin Cifti</th>
+          <th>Fiyat</th>
+          <th>Durum</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="3">Ilk calisma bekleniyor...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
